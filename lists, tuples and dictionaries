@@ -1,0 +1,19 @@
+print("FUNCTIONS ON LISTS")
+mylist=[1,2,3,4]
+mylist.append(5) 
+print(mylist)
+
+print("FUNCTIONS ON TUPLES")
+mytuple=("mango","orange","banana","peach")
+print(mytuple[2])
+
+print("FUNCTIONS ON DICTIONARIES")
+mydict={ 
+    "mike": 34,
+    "sara": 98,
+    "lesley": 56,
+    "jasmine": 85
+}
+print(mydict)
+del mydict["lesley"]
+print(mydict)
